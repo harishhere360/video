@@ -4,4 +4,5 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+    <welcome-file>index.jsp</welcome-file>
 </web-app>
