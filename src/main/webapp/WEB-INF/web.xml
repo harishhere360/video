@@ -4,5 +4,22 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-    <welcome-file>index.jsp</welcome-file>
+  <servlet>
+  	<servlet-name>LogIn</servlet-name>
+  	<servlet-class>org.techietune.LogIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogIn</servlet-name>
+  	<url-pattern>/LogIn</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<servlet-class>org.techietune.SignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/Sign-Up</url-pattern>
+  </servlet-mapping>
 </web-app>
